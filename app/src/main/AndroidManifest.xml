@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mbc.fonfon.sun.whatmovie3">
+
+    <application
+        android:largeHeap="true"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".WhatMovie3Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MovieInfoActivity"
+            android:label="영화 상세 정보"></activity>
+        <activity android:name=".ViewCountActivity"
+            android:label="관객순"></activity>
+        <activity android:name=".StarActivity"
+            android:label="평점순"></activity>
+        <activity android:name=".GenreActivity"
+            android:label="장르별"></activity>
+        <activity android:name=".Search"
+            android:label="검색"></activity>
+    </application>
+
+</manifest>
